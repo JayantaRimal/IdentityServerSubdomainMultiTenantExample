@@ -2,7 +2,7 @@
 
 You can follow the tutorial here :
 
-https://jayantarimal.com.np/implement-tenant-selection-in-identity-server-4-for-multi-tenant-application/
+https://jayantarimal.com.np/implement-domain-or-subdomain-based-multi-tenancy-in-identity-server/
 
 To run this application follow the points belows :
 
