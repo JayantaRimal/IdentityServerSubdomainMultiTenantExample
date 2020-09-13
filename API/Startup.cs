@@ -64,9 +64,9 @@ namespace API
 
                     //your authority, this will be base url for now as we have created dynamic authority according to the tenant
 
-                    options.Authority = "https://jayanta.com:44318";
+                    options.Authority = Configuration.GetSection("AuthorizationServerUrls:AuthorityDomain").Get<String>().ToString();
 
-                    options.Audience = "web_api";
+                    options.Audience = Configuration.GetSection("AuthorizationServerUrls:Audience").Get<String>().ToString();
                 
                 
                 });
